@@ -1,7 +1,12 @@
-import { Hero } from './container';
+import { Hero, Services } from './container';
 
 function App() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <Services />
+    </>
+  );
 }
 
 export default App;
