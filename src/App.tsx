@@ -1,5 +1,7 @@
+import { Hero } from './container';
+
 function App() {
-  return <div>hello world</div>;
+  return <Hero />;
 }
 
 export default App;
